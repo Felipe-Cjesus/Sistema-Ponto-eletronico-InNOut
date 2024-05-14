@@ -9,7 +9,7 @@ if($exception) {
     ];
 
     if(get_class($exception) === 'ValidationException') {
-        $errors = $exception->getErrors();
+        $errors = $exception->getErrors();      // Verificar versão do PHP
     }
 }
 
