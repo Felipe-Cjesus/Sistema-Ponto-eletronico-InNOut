@@ -1,6 +1,4 @@
 <?php
-loadModel('User');
-
 class Login extends Model {
 
     //TO-DO Implementar Regex para email valido
