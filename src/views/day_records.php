@@ -5,7 +5,7 @@
             'Mantenha seu ponto consistente!',
             'icofont-check-alt'
         );
-        // include(TEMPLATE_PATH . "/messages.php");
+        include(TEMPLATE_PATH . "/messages.php");
     ?>
 
     <div class="content-title mb-4">
